@@ -44,7 +44,7 @@ adnan-portfolio/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR-USERNAME/adnan-portfolio.git
+git clone https://github.com/ADNAN-ZEYA/adnan-portfolio.git
 cd adnan-portfolio
 ```
 
@@ -102,20 +102,5 @@ npx http-server assets
 ✅ Mobile-friendly navigation
 ✅ Intersection Observer for lazy animations
 
-## 📝 License
-
-This project is open source and available under the MIT License. Feel free to fork and customize!
-
-## 🎨 Customization
-
-To customize this portfolio for your own use:
-
-1. Update your information in `assets/index.html`
-2. Replace certificates in `assets/docs/`
-3. Update your links (GitHub, LinkedIn, Email, HackerRank)
-4. Modify colors in `assets/style.css` by changing the CSS variables in `:root`
-5. Update projects and achievements as needed
-
----
 
 **Built with ❤️ by Adnan Zeya**
