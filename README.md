@@ -87,7 +87,7 @@ npx http-server assets
 
 - **GitHub**: [ADNAN-ZEYA](https://github.com/ADNAN-ZEYA)
 - **LinkedIn**: [Adnan Zeya](https://www.linkedin.com/in/adnan-zeya-763511255)
-- **HackerRank**: [RA2311003011911](https://www.hackerrank.com/profile/RA2311003011911)
+- **HackerRank**: [Adnan](https://www.hackerrank.com/profile/RA2311003011911)
 - **Email**: adnanzeya5@gmail.com
 
 ## 💡 Features Implemented
