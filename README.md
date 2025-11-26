@@ -44,7 +44,7 @@ adnan-portfolio/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR-USERNAME/adnan-portfolio.git
+git clone https://github.com/ADNAN-ZEYA/adnan-portfolio.git
 cd adnan-portfolio
 ```
 
