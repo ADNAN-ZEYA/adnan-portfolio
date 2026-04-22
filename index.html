@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adnan Zeya — DevSecOps Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Share+Tech+Mono&family=Exo+2:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="bg-canvas"></canvas>
+<div class="scanlines"></div>
+<div class="cursor" id="cursor"></div>
+<div class="cursor-outer" id="cursor-outer"></div>
+
+<nav id="nav">
+    <div class="nav-inner">
+        <div class="nav-logo"><span class="logo-bracket">[</span><span class="logo-text">AZ</span><span class="logo-bracket">]</span></div>
+        <div class="nav-links">
+            <a href="#about" class="nl"><span class="nl-num">01</span>About</a>
+            <a href="#stack" class="nl"><span class="nl-num">02</span>Stack</a>
+            <a href="#work" class="nl"><span class="nl-num">03</span>Work</a>
+            <a href="#honors" class="nl"><span class="nl-num">04</span>Honors</a>
+            <a href="#certs" class="nl"><span class="nl-num">05</span>Certs</a>
+        </div>
+        <a href="assets/docs/Adnan_Zeya_Resume_2026.pdf" target="_blank" class="nav-btn nav-btn-outline"><i class="fas fa-file-alt"></i> RESUME</a>
+        <a href="#contact" class="nav-btn">HIRE ME</a>
+        <button class="burger" id="burger"><span></span><span></span><span></span></button>
+    </div>
+    <div class="mob-menu" id="mob-menu">
+        <a href="#about">01 · About</a>
+        <a href="#stack">02 · Stack</a>
+        <a href="#work">03 · Work</a>
+        <a href="#honors">04 · Honors</a>
+        <a href="#certs">05 · Certs</a>
+        <a href="#contact">Hire Me</a>
+        <a href="assets/docs/Adnan_Zeya_Resume_2026.pdf" target="_blank">Resume</a>
+    </div>
+</nav>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <div class="hero-left">
+            <div class="hero-status">
+                <span class="status-ping"></span>
+                <span class="mono">SYSTEM ONLINE · DEVSECOPS ENGINEER</span>
+            </div>
+            <div class="hero-name-wrap">
+                <div class="hero-line1"><span class="glitch" data-text="ADNAN">ADNAN</span></div>
+                <div class="hero-line2"><span class="glitch outline-text" data-text="ZEYA">ZEYA</span></div>
+            </div>
+            <div class="hero-tagline">
+                <span class="tag-bracket mono">// </span>
+                <span class="typing-text mono" id="typing"></span>
+                <span class="cursor-blink mono">_</span>
+            </div>
+            <p class="hero-desc">Securing infrastructure. Automating pipelines.<br>Shipping full-stack systems end-to-end.</p>
+            <div class="hero-ctas">
+                <a href="assets/docs/Adnan_Zeya_Resume_2026.pdf" target="_blank" class="cta-primary"><i class="fas fa-download"></i><span>DOWNLOAD CV</span></a>
+                <a href="#work" class="cta-ghost"><span>VIEW WORK</span><i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="hero-socials">
+                <a href="https://github.com/ADNAN-ZEYA" target="_blank" class="hs" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/adnan-zeya-763511255" target="_blank" class="hs" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://leetcode.com/u/Adnanzeya/" target="_blank" class="hs" title="LeetCode"><i class="fas fa-code"></i></a>
+                <a href="https://www.geeksforgeeks.org/profile/adnanzqvdz" target="_blank" class="hs" title="GFG"><i class="fas fa-leaf"></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=adnanzeya5@gmail.com" target="_blank" class="hs" title="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="hero-right">
+            <div class="terminal-card">
+                <div class="tc-header">
+                    <div class="tc-dots"><span class="tcd red"></span><span class="tcd yellow"></span><span class="tcd green"></span></div>
+                    <span class="mono tc-title">adnan@devsecops:~$</span>
+                </div>
+                <div class="tc-body mono">
+                    <div class="tc-line"><span class="tcp">$</span> <span class="tcc">whoami</span></div>
+                    <div class="tc-line tco">DevSecOps Intern @ MK CognitionX</div>
+                    <div class="tc-line"><span class="tcp">$</span> <span class="tcc">cat stats.json</span></div>
+                    <div class="tc-line tco">{</div>
+                    <div class="tc-line tco">&nbsp;&nbsp;<span class="tck">"projects"</span>: <span class="tcv">5</span>,</div>
+                    <div class="tc-line tco">&nbsp;&nbsp;<span class="tck">"cgpa"</span>: <span class="tcv">8.75</span>,</div>
+                    <div class="tc-line tco">&nbsp;&nbsp;<span class="tck">"codevita_rank"</span>: <span class="tcv">381</span>,</div>
+                    <div class="tc-line tco">&nbsp;&nbsp;<span class="tck">"status"</span>: <span class="tcs">"available"</span></div>
+                    <div class="tc-line tco">}</div>
+                    <div class="tc-line"><span class="tcp">$</span> <span class="tcc">ls skills/</span></div>
+                    <div class="tc-line tco"><span class="tcd2">docker/</span> <span class="tcd2">aws/</span> <span class="tcd2">terraform/</span></div>
+                    <div class="tc-line tco"><span class="tcd2">burpsuite/</span> <span class="tcd2">nmap/</span> <span class="tcd2">owasp/</span></div>
+                    <div class="tc-line tco"><span class="tcd2">nextjs/</span> <span class="tcd2">python/</span> <span class="tcd2">linux/</span></div>
+                    <div class="tc-line"><span class="tcp">$</span> <span class="cbg">█</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-ind"><div class="scroll-anim"></div><span class="mono">SCROLL</span></div>
+</section>
+
+<section id="about" class="section">
+    <div class="wrap">
+        <div class="sec-head reveal"><div class="sec-line"></div><span class="mono sec-n">01</span><h2>ABOUT<span class="ta">.</span></h2></div>
+        <div class="about-grid">
+            <div class="about-text reveal">
+                <p>3rd year CS undergrad at <strong>SRM Institute of Science & Technology</strong>, building at the intersection of DevSecOps, cloud infrastructure, and full-stack engineering.</p>
+                <p>Currently interning at <strong>MK CognitionX Tech LLP</strong> on systems connected to MIT and Harvard researchers — provisioning AWS, building CI/CD pipelines, hardening containers, and shipping production code.</p>
+                <p>Mission: <strong>Build systems that are secure, automated, and ship fast.</strong></p>
+            </div>
+            <div class="about-cards reveal-d">
+                <div class="acard"><div class="acard-ic"><i class="fas fa-graduation-cap"></i></div><div><div class="acard-t">SRM IST — B.Tech CSE</div><div class="acard-s mono">2023–2027 · CGPA 8.75/10</div></div></div>
+                <div class="acard"><div class="acard-ic"><i class="fas fa-server"></i></div><div><div class="acard-t">DevOps / Full Stack Intern</div><div class="acard-s mono">MK CognitionX · Mar 2026–</div></div></div>
+                <div class="acard"><div class="acard-ic"><i class="fas fa-shield-alt"></i></div><div><div class="acard-t">Target: DevSecOps / DevOps</div><div class="acard-s mono">Security-first engineering</div></div></div>
+                <div class="acard"><div class="acard-ic"><i class="fas fa-map-marker-alt"></i></div><div><div class="acard-t">Chennai, India</div><div class="acard-s mono">Open to remote roles</div></div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="stack" class="section sec-dark">
+    <div class="wrap">
+        <div class="sec-head reveal"><div class="sec-line"></div><span class="mono sec-n">02</span><h2>TECH STACK<span class="ta">.</span></h2></div>
+        <div class="stack-wrap reveal">
+            <div class="sg"><div class="sg-h mono"><i class="fas fa-cloud"></i> DevOps &amp; Cloud</div><div class="sg-pills"><span class="pill c">Docker</span><span class="pill c">GitHub Actions</span><span class="pill c">AWS EC2</span><span class="pill c">AWS S3</span><span class="pill c">AWS IAM</span><span class="pill c">Terraform</span><span class="pill c">Nginx</span><span class="pill c">Linux / Bash</span></div></div>
+            <div class="sg"><div class="sg-h mono"><i class="fas fa-shield-alt"></i> Security</div><div class="sg-pills"><span class="pill r">Wireshark</span><span class="pill r">Nmap</span><span class="pill r">Burp Suite</span><span class="pill r">OWASP Top 10</span><span class="pill r">VAPT</span><span class="pill r">Pen Testing</span><span class="pill r">Trivy CVE</span></div></div>
+            <div class="sg"><div class="sg-h mono"><i class="fas fa-code"></i> Full Stack</div><div class="sg-pills"><span class="pill b">Next.js 14</span><span class="pill b">React.js</span><span class="pill b">Python</span><span class="pill b">FastAPI</span><span class="pill b">Supabase</span><span class="pill b">PostgreSQL</span></div></div>
+            <div class="sg"><div class="sg-h mono"><i class="fas fa-terminal"></i> Languages</div><div class="sg-pills"><span class="pill">C++</span><span class="pill">Python</span><span class="pill">JavaScript</span><span class="pill">C</span><span class="pill">SQL</span><span class="pill">Bash</span></div></div>
+        </div>
+    </div>
+</section>
+
+<section id="work" class="section">
+    <div class="wrap">
+        <div class="sec-head reveal"><div class="sec-line"></div><span class="mono sec-n">03</span><h2>SELECTED WORK<span class="ta">.</span></h2></div>
+        <div class="feat reveal">
+            <div class="feat-corners"><div class="fc tl"></div><div class="fc tr"></div><div class="fc bl"></div><div class="fc br"></div></div>
+            <div class="feat-top"><span class="mono feat-lbl">// 01 · FEATURED · DEVSECOPS + FULL STACK</span><a href="https://github.com/ADNAN-ZEYA/Expense-Tracker" target="_blank" class="feat-gh mono"><i class="fab fa-github"></i> GitHub</a></div>
+            <div class="feat-body">
+                <div class="feat-info">
+                    <h3>FinTrack</h3>
+                    <p>Production-grade personal finance manager with a complete end-to-end DevOps pipeline. JWT auth via Supabase with Row Level Security, Docker Compose + Nginx, automated GitHub Actions CI/CD to AWS EC2 with Trivy CVE scanning baked in.</p>
+                    <div class="feat-tech"><span>Next.js 14</span><span>Supabase</span><span>Docker</span><span>GitHub Actions</span><span>AWS EC2</span><span>Nginx</span><span>Trivy</span></div>
+                    <a href="http://13.233.174.46" target="_blank" class="cta-ghost" style="margin-top:1rem;font-size:0.78rem;padding:0.5rem 1rem"><span>LIVE DEMO</span><i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="feat-side">
+                    <div class="fs-item"><span class="fs-dot c"></span><span class="mono">Containerized Stack</span></div>
+                    <div class="fs-item"><span class="fs-dot c"></span><span class="mono">CI/CD Automated</span></div>
+                    <div class="fs-item"><span class="fs-dot c"></span><span class="mono">AWS EC2 Deployed</span></div>
+                    <div class="fs-item"><span class="fs-dot r"></span><span class="mono">Trivy CVE Scanned</span></div>
+                    <div class="fs-item"><span class="fs-dot r"></span><span class="mono">JWT + RLS Auth</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="proj-grid">
+            <div class="proj reveal"><div class="proj-top"><span class="pn mono">02</span><a href="https://github.com/ADNAN-ZEYA/Website_Builder" target="_blank" class="pgh"><i class="fab fa-github"></i></a></div><h3>AI Website Builder</h3><p>Generates complete responsive web pages from natural language via Gemini API. Dockerized with Kubernetes manifests.</p><div class="pt"><span>Gemini API</span><span>Docker</span><span>Kubernetes</span></div><div class="pm"><span class="pmn">AI</span><span class="pml mono">Powered</span></div></div>
+            <div class="proj reveal-d"><div class="proj-top"><span class="pn mono">03</span><a href="https://github.com/ADNAN-ZEYA/smart-task-analyzer" target="_blank" class="pgh"><i class="fab fa-github"></i></a></div><h3>Smart Task Analyzer</h3><p>Custom Weighted Decay Algorithm with Dependency Graph. Hyperbolic urgency decay, Django REST API, SaaS dashboard.</p><div class="pt"><span>Python</span><span>Django</span><span>REST API</span></div><div class="pm"><span class="pmn">4</span><span class="pml mono">Score Vectors</span></div></div>
+            <div class="proj reveal"><div class="proj-top"><span class="pn mono">04</span><a href="https://github.com/ADNAN-ZEYA/SafeChat" target="_blank" class="pgh"><i class="fab fa-github"></i></a></div><h3>SafeChat</h3><p>Real-time NLP pipeline for toxic content detection. TF-IDF vectorization with FastAPI backend for high-throughput moderation.</p><div class="pt"><span>Python</span><span>NLP</span><span>FastAPI</span></div><div class="pm"><span class="pmn">98%</span><span class="pml mono">Accuracy</span></div></div>
+            <div class="proj reveal-d"><div class="proj-top"><span class="pn mono">05</span><a href="https://github.com/ADNAN-ZEYA/AI-Powered-Resume-Scoring-and-Feedback" target="_blank" class="pgh"><i class="fab fa-github"></i></a></div><h3>AI Resume Scorer</h3><p>TF-IDF + RandomForestRegressor with ColumnTransformer. FastAPI backend for real-time scoring and structured feedback.</p><div class="pt"><span>Python</span><span>Scikit-Learn</span><span>FastAPI</span></div><div class="pm"><span class="pmn">97.1%</span><span class="pml mono">R² Score</span></div></div>
+        </div>
+    </div>
+</section>
+
+<section id="honors" class="section sec-dark">
+    <div class="wrap">
+        <div class="sec-head reveal"><div class="sec-line"></div><span class="mono sec-n">04</span><h2>HONORS<span class="ta">.</span></h2></div>
+        <div class="honors-grid">
+            <div class="honor reveal"><div class="hon-ic c"><i class="fas fa-code"></i></div><div><div class="hon-t">TCS CodeVita Season 13</div><div class="hon-s mono">Global Rank 381</div><a href="assets/achievements%20certificates/TCS%20CodeVita%20Season%2013%20Certificate%20.pdf" target="_blank" class="hon-link mono">View Cert →</a></div></div>
+            <div class="honor reveal"><div class="hon-ic b"><i class="fas fa-trophy"></i></div><div><div class="hon-t">2nd Place — Bajaj FinServ Ideathon</div><div class="hon-s mono">SRM IST 2024</div><a href="assets/docs/Ideathon.pdf" target="_blank" class="hon-link mono">View Cert →</a></div></div>
+            <div class="honor reveal"><div class="hon-ic g"><i class="fas fa-robot"></i></div><div><div class="hon-t">Best Project — TechKnow 2023-24</div><div class="hon-s mono">Fire Fighting Robot</div><a href="assets/docs/Best project - fire fighting certificate.pdf" target="_blank" class="hon-link mono">View Cert →</a></div></div>
+            <div class="honor reveal"><div class="hon-ic b"><i class="fas fa-lightbulb"></i></div><div><div class="hon-t">Certificate of Appreciation</div><div class="hon-s mono">SRM ACM Conclave</div><a href="assets/docs/Appreciation certificate.pdf" target="_blank" class="hon-link mono">View Cert →</a></div></div>
+        </div>
+    </div>
+</section>
+
+<section id="certs" class="section">
+    <div class="wrap">
+        <div class="sec-head reveal"><div class="sec-line"></div><span class="mono sec-n">05</span><h2>CERTIFICATIONS<span class="ta">.</span></h2></div>
+        <div class="certs-grid">
+            <a href="assets/docs/nptel.pdf" target="_blank" class="cert reveal"><div class="cert-ic"><i class="fas fa-graduation-cap"></i></div><div class="cert-info"><div class="cert-n">Intro to Machine Learning</div><div class="cert-o mono">NPTEL · IIT Madras</div></div><i class="fas fa-external-link-alt cert-a"></i></a>
+            <a href="assets/docs/Foundation of cyber security.pdf" target="_blank" class="cert reveal"><div class="cert-ic"><i class="fas fa-shield-alt"></i></div><div class="cert-info"><div class="cert-n">Foundations of Cybersecurity</div><div class="cert-o mono">Google · Coursera</div></div><i class="fas fa-external-link-alt cert-a"></i></a>
+            <a href="assets/docs/Play safe and risk-coursera.pdf" target="_blank" class="cert reveal"><div class="cert-ic"><i class="fas fa-lock"></i></div><div class="cert-info"><div class="cert-n">Manage Security Risks</div><div class="cert-o mono">Google · Coursera</div></div><i class="fas fa-external-link-alt cert-a"></i></a>
+            <a href="assets/docs/Ai for everyone certificate from cousera.pdf" target="_blank" class="cert reveal"><div class="cert-ic"><i class="fas fa-brain"></i></div><div class="cert-info"><div class="cert-n">AI For Everyone</div><div class="cert-o mono">DeepLearning.AI</div></div><i class="fas fa-external-link-alt cert-a"></i></a>
+            <a href="assets/docs/HTML, CSS, and Javascript for Web Developers.pdf" target="_blank" class="cert reveal"><div class="cert-ic"><i class="fab fa-js"></i></div><div class="cert-info"><div class="cert-n">HTML, CSS & JavaScript</div><div class="cert-o mono">Johns Hopkins · Coursera</div></div><i class="fas fa-external-link-alt cert-a"></i></a>
+            <a href="assets/docs/Machine learning with AI Training - Certificate of Completion.pdf" target="_blank" class="cert reveal"><div class="cert-ic"><i class="fas fa-microchip"></i></div><div class="cert-info"><div class="cert-n">Machine Learning with AI</div><div class="cert-o mono">Internshala · IITM Pravartak</div></div><i class="fas fa-external-link-alt cert-a"></i></a>
+            <a href="assets/docs/skill-india certificate for ML.pdf" target="_blank" class="cert reveal"><div class="cert-ic"><i class="fas fa-flag"></i></div><div class="cert-info"><div class="cert-n">ML Training Certificate</div><div class="cert-o mono">Skill India · Internshala</div></div><i class="fas fa-external-link-alt cert-a"></i></a>
+            <div class="cert cert-wip reveal"><div class="cert-ic"><i class="fab fa-aws"></i></div><div class="cert-info"><div class="cert-n">AWS Cloud Practitioner</div><div class="cert-o mono">Amazon Web Services</div></div><span class="wip mono">SOON</span></div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section sec-dark contact-sec">
+    <div class="wrap">
+        <div class="contact-wrap reveal">
+            <div class="mono contact-pre">// INITIATE CONNECTION</div>
+            <h2 class="contact-h">OPEN TO<br><span class="title-outline">OPPORTUNITIES</span></h2>
+            <p class="contact-sub mono">DevSecOps · DevOps · Full Stack · Remote-friendly</p>
+            <div class="contact-btns">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=adnanzeya5@gmail.com" target="_blank" class="cta-primary"><i class="fas fa-envelope"></i><span>adnanzeya5@gmail.com</span></a>
+                <a href="https://www.linkedin.com/in/adnan-zeya-763511255" target="_blank" class="cta-ghost"><span>LINKEDIN</span><i class="fab fa-linkedin"></i></a>
+                <a href="assets/docs/Adnan_Zeya_Resume_2026.pdf" target="_blank" class="cta-ghost"><i class="fas fa-file-alt"></i><span>DOWNLOAD RESUME</span></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <span class="mono">© 2025 ADNAN ZEYA</span>
+    <div class="footer-line"></div>
+    <a href="assets/docs/Adnan_Zeya_Resume_2026.pdf" target="_blank" class="mono footer-resume"><i class="fas fa-file-alt"></i> RESUME</a>
+    <div class="footer-line"></div>
+    <span class="mono">ENGINEERED WITH PRECISION</span>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
