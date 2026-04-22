@@ -1,121 +1,200 @@
-# Adnan Zeya - Portfolio
-
-A modern, responsive portfolio website showcasing my skills, projects, and achievements as a Hybrid Engineer specializing in C++, AI/ML, and Cybersecurity.
-
-## 🎯 Features
-
-- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
-- **Modern UI**: Glassmorphism effects with smooth animations and gradient text
-- **Smooth Navigation**: Scroll-based navigation with smooth transitions
-- **Project Showcase**: Highlights of key projects with GitHub links
-- **Achievements & Awards**: Certifications and recognitions
-- **Professional Certifications**: Links to verified certificates (NPTEL, Google, Coursera, etc.)
-- **HackerRank Integration**: Direct link to HackerRank profile
-- **Easy Contact**: Direct Gmail compose integration
-
-## 📁 Project Structure
+<!-- Header -->
+<div align="center">
 
 ```
-adnan-portfolio/
-├── assets/
-│   ├── index.html          # Main HTML file
-│   ├── style.css           # All styling (Tailwind + custom CSS)
-│   ├── main.js             # JavaScript for interactivity
-│   └── docs/
-│       ├── ADNANZEYA-RESUME.pdf
-│       ├── Ideathon.pdf
-│       ├── Best project - fire fighting certificate.pdf
-│       ├── Appreciation certificate.pdf
-│       └── [Other certificates...]
-└── README.md
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║        ██████╗ ███████╗██╗   ██╗███████╗███████╗ ██████╗     ║
+║        ██╔══██╗██╔════╝██║   ██║██╔════╝██╔════╝██╔════╝     ║
+║        ██║  ██║█████╗  ██║   ██║███████╗█████╗  ██║          ║
+║        ██║  ██║██╔══╝  ╚██╗ ██╔╝╚════██║██╔══╝  ██║          ║
+║        ██████╔╝███████╗ ╚████╔╝ ███████║███████╗╚██████╗     ║
+║        ╚═════╝ ╚══════╝  ╚═══╝  ╚══════╝╚══════╝ ╚═════╝     ║
+║                                                               ║
+║              [ DevSecOps · DevOps · Full Stack ]              ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
 ```
 
-## 🛠 Technologies Used
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2500&pause=800&color=00D4FF&center=true&vCenter=true&width=600&lines=Securing+Cloud+Infrastructure...;Automating+CI%2FCD+Pipelines...;Building+Full+Stack+Systems...;Penetration+Testing+%26+VAPT...;Engineering+the+Digital+Future...)](https://git.io/typing-svg)
 
-- **HTML5**: Semantic markup
-- **CSS3**: Tailwind CSS + Custom styles with glassmorphism effects
-- **JavaScript**: Vanilla JS for smooth scrolling and animations
-- **Icons**: FontAwesome 6.0.0
-- **Fonts**: Outfit (Google Fonts)
+<img src="https://komarev.com/ghpvc/?username=ADNAN-ZEYA&style=flat-square&color=00d4ff&label=PROFILE+VIEWS" alt="profile views"/>
 
-## 🚀 Getting Started
-
-### Local Setup
-
-1. Clone the repository:
-```bash
-git clone https://github.com/ADNAN-ZEYA/adnan-portfolio.git
-cd adnan-portfolio
-```
-
-2. Open the portfolio in your browser:
-   - Navigate to `assets/index.html` and open it in your browser, or
-   - Use a local server (recommended):
-
-```bash
-# Using Python 3
-python -m http.server 8000
-
-# Using Python 2
-python -m SimpleHTTPServer 8000
-
-# Using Node.js (if you have http-server installed)
-npx http-server assets
-```
-
-3. Visit `http://localhost:8000/assets/` in your browser
-
-## 📋 Sections
-
-- **Home**: Introduction and quick links to GitHub, LinkedIn, Email, and Resume
-- **About Me**: Background, journey, and key highlights
-- **Tech Stack**: Skills covering C++, Python, ML, DL, NLP, and more
-- **Projects**: Showcase of major projects with descriptions and GitHub links
-- **Honors & Awards**: Academic achievements and certifications
-- **Certifications**: Professional certifications from top institutions
-- **Contact**: Direct email integration for easy communication
-
-## 📚 Certifications
-
-- NPTEL: Introduction to Machine Learning (IIT Kharagpur)
-- Google Cybersecurity Foundations
-- DeepLearning.AI: AI For Everyone
-- Johns Hopkins University: Web Development
-- Coursera: Multiple courses on ML, Security, and AI
-
-## 🔗 Connect With Me
-
-- **GitHub**: [ADNAN-ZEYA](https://github.com/ADNAN-ZEYA)
-- **LinkedIn**: [Adnan Zeya](https://www.linkedin.com/in/adnan-zeya-763511255)
-- **HackerRank**: [RA2311003011911](https://www.hackerrank.com/profile/RA2311003011911)
-- **Email**: adnanzeya5@gmail.com
-
-## 💡 Features Implemented
-
-✅ Smooth scroll animations on section load
-✅ Responsive navbar with smooth blur effect on scroll
-✅ Glassmorphism card design
-✅ Gradient text effects
-✅ Social media and resume icons
-✅ Direct Gmail compose integration
-✅ PDF certificate links
-✅ Mobile-friendly navigation
-✅ Intersection Observer for lazy animations
-
-## 📝 License
-
-This project is open source and available under the MIT License. Feel free to fork and customize!
-
-## 🎨 Customization
-
-To customize this portfolio for your own use:
-
-1. Update your information in `assets/index.html`
-2. Replace certificates in `assets/docs/`
-3. Update your links (GitHub, LinkedIn, Email, HackerRank)
-4. Modify colors in `assets/style.css` by changing the CSS variables in `:root`
-5. Update projects and achievements as needed
+</div>
 
 ---
 
-**Built with ❤️ by Adnan Zeya**
+## `$ whoami`
+
+```json
+{
+  "name"     : "Adnan Zeya",
+  "role"     : "DevSecOps & Full Stack Engineer",
+  "college"  : "SRM Institute of Science & Technology",
+  "degree"   : "B.Tech CSE (2023–2027)",
+  "cgpa"     : 8.67,
+  "location" : "Chennai, India",
+  "status"   : "DevOps Intern @ MK CognitionX Tech LLP",
+  "open_to"  : ["DevSecOps", "DevOps", "Full Stack", "Remote"],
+  "contact"  : "adnanzeya5@gmail.com"
+}
+```
+
+---
+
+## `$ ls skills/`
+
+<table>
+<tr>
+<td valign="top" width="50%">
+
+**☁️ DevOps & Cloud**
+```
+Docker          GitHub Actions   Terraform
+AWS EC2/S3/IAM  Nginx            Linux/Bash
+Docker Compose  AWS CloudWatch   Podman
+```
+
+**🔒 Security**
+```
+Wireshark       Nmap            Burp Suite
+OWASP Top 10    VAPT            Pen Testing
+SQL Injection   XSS/CSRF        Trivy CVE
+```
+
+</td>
+<td valign="top" width="50%">
+
+**⚡ Full Stack**
+```
+Next.js 14      React.js        Node.js
+FastAPI         Supabase        PostgreSQL
+REST APIs       Express.js      Prometheus
+```
+
+**🧠 Languages & Core**
+```
+Python          C++             JavaScript
+C               SQL             Bash
+DSA             OOP             Networking
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+## `$ cat projects.json`
+
+### 🚀 [FinTrack — Personal Finance Manager](https://github.com/ADNAN-ZEYA/Expense-Tracker)
+> **Full Stack + Complete DevOps Pipeline**
+
+```yaml
+stack:    Next.js 14 · Supabase · Docker · GitHub Actions · AWS EC2 · Nginx · Trivy
+pipeline: Code → Build → CVE Scan → Docker Hub → SSH Deploy → EC2
+security: JWT Auth · Row Level Security · Trivy CVE Scanning
+monitor:  Prometheus + Grafana · Live dashboards
+live:     http://13.233.174.46
+```
+
+---
+
+### 🤖 [AI Website Builder](https://github.com/ADNAN-ZEYA/Website_Builder)
+> **AI-Powered Page Generation**
+
+```yaml
+stack:   Node.js · Gemini API · Docker · Kubernetes
+feature: Natural language → complete responsive webpage
+devops:  Dockerized · Kubernetes manifests for scale
+```
+
+---
+
+### 🧠 [Smart Task Analyzer](https://github.com/ADNAN-ZEYA/smart-task-analyzer)
+> **Custom Algorithm + Django REST API**
+
+```yaml
+stack:     Python · Django · REST API · SQLite
+algorithm: Weighted Decay · Dependency Graph · Hyperbolic Urgency
+feature:   4 scoring vectors · Quick Wins mode · SaaS dashboard
+```
+
+---
+
+### 🛡️ [SafeChat — Cyberbullying Detection](https://github.com/ADNAN-ZEYA/SafeChat)
+> **Real-time NLP Pipeline**
+
+```yaml
+stack:    Python · Scikit-Learn · TF-IDF · FastAPI
+accuracy: 98% classification accuracy
+feature:  Real-time toxic content detection from live streams
+```
+
+---
+
+### 📄 [AI Resume Scorer](https://github.com/ADNAN-ZEYA/AI-Powered-Resume-Scoring-and-Feedback)
+> **ML Scoring Pipeline**
+
+```yaml
+stack:    Python · TF-IDF · RandomForestRegressor · FastAPI
+accuracy: R²=0.9708 · MAE=2.44 · RMSE=3.83
+feature:  Real-time scoring + structured feedback via FastAPI
+```
+
+---
+
+## `$ cat stats.sh`
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=ADNAN-ZEYA&show_icons=true&theme=merko&bg_color=050d1a&title_color=00d4ff&icon_color=00d4ff&text_color=7a9cc0&border_color=0a2040&hide_border=false&count_private=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ADNAN-ZEYA&layout=compact&theme=merko&bg_color=050d1a&title_color=00d4ff&text_color=7a9cc0&border_color=0a2040&hide_border=false&langs_count=6" />
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=ADNAN-ZEYA&theme=merko&background=050d1a&border=0a2040&ring=00d4ff&fire=ff3366&currStreakLabel=00d4ff&sideLabels=7a9cc0&dates=7a9cc0)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+## `$ cat achievements.log`
+
+```
+[✓] TCS CodeVita Season 13         — Global Rank 381
+[✓] Bajaj FinServ Ideathon 2024    — 2nd Position
+[✓] TechKnow 2023-24               — Best Project Award (IoT/Robotics)
+[✓] SRM ACM Conclave               — Certificate of Appreciation
+[✓] AWS Cloud Practitioner         — In Progress
+```
+
+---
+
+## `$ ping adnan`
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adnan-zeya-763511255)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Adnanzeya/)
+[![GeeksForGeeks](https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/adnanzqvdz)
+[![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adnanzeya5@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-00D4FF?style=for-the-badge&logo=firefox&logoColor=black)](https://adnan-zeya.github.io/adnan-portfolio)
+[![Resume](https://img.shields.io/badge/Resume-PDF-FF3366?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://adnan-zeya.github.io/adnan-portfolio/assets/docs/Adnan_Zeya_Resume_2026.pdf)
+
+</div>
+
+---
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════════╗
+║   "Build secure. Automate everything.        ║
+║    Ship fast."                               ║
+╚══════════════════════════════════════════════╝
+```
+
+</div>

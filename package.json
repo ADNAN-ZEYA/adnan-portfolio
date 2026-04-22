@@ -1,0 +1,9 @@
+{
+  "name": "adnan-portfolio",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npx vite",
+    "build": "npx vite build",
+    "preview": "npx vite preview"
+  }
+}
