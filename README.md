@@ -152,13 +152,6 @@ feature:  Real-time scoring + structured feedback via FastAPI
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=ADNAN-ZEYA&show_icons=true&theme=merko&bg_color=050d1a&title_color=00d4ff&icon_color=00d4ff&text_color=7a9cc0&border_color=0a2040&hide_border=false&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ADNAN-ZEYA&layout=compact&theme=merko&bg_color=050d1a&title_color=00d4ff&text_color=7a9cc0&border_color=0a2040&hide_border=false&langs_count=6" />
-
-</div>
-
-<div align="center">
-
 [![GitHub Streak](https://streak-stats.demolab.com?user=ADNAN-ZEYA&theme=merko&background=050d1a&border=0a2040&ring=00d4ff&fire=ff3366&currStreakLabel=00d4ff&sideLabels=7a9cc0&dates=7a9cc0)](https://git.io/streak-stats)
 
 </div>
