@@ -4,17 +4,19 @@
 ```
 ╔═══════════════════════════════════════════════════════════════╗
 ║                                                               ║
-║        ██████╗ ███████╗██╗   ██╗███████╗███████╗ ██████╗     ║
-║        ██╔══██╗██╔════╝██║   ██║██╔════╝██╔════╝██╔════╝     ║
-║        ██║  ██║█████╗  ██║   ██║███████╗█████╗  ██║          ║
-║        ██║  ██║██╔══╝  ╚██╗ ██╔╝╚════██║██╔══╝  ██║          ║
-║        ██████╔╝███████╗ ╚████╔╝ ███████║███████╗╚██████╗     ║
-║        ╚═════╝ ╚══════╝  ╚═══╝  ╚══════╝╚══════╝ ╚═════╝     ║
+║       ██████╗ ███████╗██╗   ██╗ ██████╗ ██████╗ ███████╗     ║
+║       ██╔══██╗██╔════╝██║   ██║██╔═══██╗██╔══██╗██╔════╝     ║
+║       ██║  ██║█████╗  ██║   ██║██║   ██║██████╔╝███████╗     ║
+║       ██║  ██║██╔══╝  ╚██╗ ██╔╝██║   ██║██╔═══╝ ╚════██║     ║
+║       ██████╔╝███████╗ ╚████╔╝ ╚██████╔╝██║     ███████║     ║
+║       ╚═════╝ ╚══════╝  ╚═══╝   ╚═════╝ ╚═╝     ╚══════╝     ║
 ║                                                               ║
-║              [ DevSecOps · DevOps · Full Stack ]              ║
+║                    [ DevOps · Full Stack ]                    ║
 ║                                                               ║
 ╚═══════════════════════════════════════════════════════════════╝
 ```
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-00D4FF?style=for-the-badge&logo=firefox&logoColor=black)](https://adnan-zeya.github.io/adnan-portfolio/)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2500&pause=800&color=00D4FF&center=true&vCenter=true&width=600&lines=Securing+Cloud+Infrastructure...;Automating+CI%2FCD+Pipelines...;Building+Full+Stack+Systems...;Penetration+Testing+%26+VAPT...;Engineering+the+Digital+Future...)](https://git.io/typing-svg)
 
@@ -29,13 +31,16 @@
 ```json
 {
   "name"     : "Adnan Zeya",
-  "role"     : "DevSecOps & Full Stack Engineer",
+  "role"     : "DevOps & Full Stack Engineer",
   "college"  : "SRM Institute of Science & Technology",
   "degree"   : "B.Tech CSE (2023–2027)",
   "cgpa"     : 8.67,
   "location" : "Chennai, India",
-  "status"   : "DevOps Intern @ MK CognitionX Tech LLP",
-  "open_to"  : ["DevSecOps", "DevOps", "Full Stack", "Remote"],
+  "status"   : [
+    "DevOps Intern @ MK CognitionX Tech LLP",
+    "Open Source Intern @ Vicharanashala Lab · IIT Ropar"
+  ],
+  "open_to"  : ["DevOps", "Full Stack", "Remote"],
   "contact"  : "adnanzeya5@gmail.com"
 }
 ```
