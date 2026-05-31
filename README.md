@@ -95,7 +95,6 @@ stack:    Next.js 14 · Supabase · Docker · GitHub Actions · AWS EC2 · Nginx
 pipeline: Code → Build → CVE Scan → Docker Hub → SSH Deploy → EC2
 security: JWT Auth · Row Level Security · Trivy CVE Scanning
 monitor:  Prometheus + Grafana · Live dashboards
-live:     http://13.233.174.46
 ```
 
 ---
